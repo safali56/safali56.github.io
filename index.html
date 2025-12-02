@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Safali — Software Developer Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #1f1f2e;">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <span class="accent-dot me-2" aria-hidden></span>
+        <span class="fw-bold">Safali</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero py-5" style="color:#ffffff;">
+    <div class="container d-grid grid-template-columns-2 gap-4 align-items-start">
+      <div>
+        <div class="card card-ghost p-4 mb-4" style="background-color:#1f1f2e; color:#ffffff;">
+          <div class="d-flex align-items-start">
+            <div class="me-3">
+  <div class="rounded-circle" 
+       style="width:100px;
+              height:100px;
+              background-image: url('./profile.png');
+              background-size: cover;
+              background-position: center;
+              box-shadow: inset 0 -6px 18px rgba(0,0,0,0.25);">
+  </div>
+</div>
+            <div>
+              <div class="name">Safali — Software Developer</div>
+              <p class="lead-quiet mb-0">I build reliable, maintainable web apps with clean code and thoughtful UX. Experienced with C#, .NET Core, Bootstrap and relational databases. Passionate about learning and delivering quality software.</p>
+            </div>
+          </div>
+          <div class="mt-3 d-flex gap-2">
+            <a href="#projects" class="btn btn-outline-light focus-outline">View Projects</a>
+            <a href="#contact" class="btn btn-primary focus-outline">Get in touch</a>
+          </div>
+        </div>
+
+        <!-- About -->
+        <section id="about" class="mt-4">
+          <h3>Summarizing Statement <span class="underline" aria-hidden></span></h3>
+          <p class="text-white">I am a detail-oriented software support student at Mohawk College with experience building .NET web apps, styling interfaces with Bootstrap, and managing data with SQL databases. I enjoy turning problems into simple, testable solutions and learning new tools that improve development speed and reliability.</p>
+
+          <h5 class="mt-4">Education</h5>
+          <div class="card card-ghost p-3" style="background-color:#1f1f2e; color:#ffffff;">
+            <strong>Mohawk College — Computer System Technician</strong>
+            <div class="text-muted small">Hamilton, ON</div>
+            <p class="mb-0 mt-2">Relevant coursework: Web Development, Databases, Networking, OOP. Actively working on portfolio projects and co-op applications.</p>
+          </div>
+
+          <h5 class="mt-4">Experience</h5>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <div class="card card-ghost p-3" style="background-color:#1f1f2e; color:#ffffff;">
+                <strong>Barista — Synonym</strong>
+                <div class="text-muted small">Aug 2024 – Jan 2025 • Hamilton, ON</div>
+                <ul class="mb-0 mt-2 small">
+                  <li>Beverage preparation and machine operation to deliver consistent quality.</li>
+                  <li>Customer service, order handling, and payment processing during busy shifts.</li>
+                  <li>Station maintenance and shift handover.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card card-ghost p-3" style="background-color:#1f1f2e; color:#ffffff;">
+                <strong>Assistant Manager — Himalayan Java Coffee</strong>
+                <div class="text-muted small">Feb 2023 – Dec 2024 • Pokhara, Nepal</div>
+                <ul class="mb-0 mt-2 small">
+                  <li>Led and trained a team of 20–24 staff, improved efficiency and onboarding.</li>
+                  <li>Handled customer concerns and cash reconciliation.</li>
+                  <li>Streamlined workflows to reduce wait times.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <aside class="card card-ghost p-4" style="background-color:#1f1f2e; color:#ffffff;">
+        <h5 class="mb-3">Contact & Quick Info</h5>
+        <p class="small mb-1"><strong>Email:</strong> <a href="mailto:safalib12@gmail.com" style="color:#6c63ff;">safalib12@gmail.com</a></p>
+        <p class="small mb-3"><strong>Location:</strong> Hamilton, ON</p>
+
+        <h6 class="mt-3">Technical Snapshot</h6>
+        <div class="d-flex flex-wrap gap-2 mt-2">
+          <span class="skill-badge">C#</span>
+          <span class="skill-badge">JavaScript</span>
+          <span class="skill-badge">Java</span>
+          <span class="skill-badge">.NET Core</span>
+          <span class="skill-badge">ASP.NET Core</span>
+          
+          <span class="skill-badge">Bootstrap</span>
+          <span class="skill-badge">Postgres SQL</span>
+          <span class="skill-badge">Microsoft SQL</span>
+          <span class="skill-badge">HTML5 / CSS</span>
+          <span class="skill-badge">Virtualization</span>
+          <span class="skill-badge">GitHub</span>
+          <span class="skill-badge">Linux</span>
+          <span class="skill-badge">Figma</span>
+        </div>
+      </aside>
+    </div>
+  </header>
+
+  <!-- SKILLS -->
+  <section id="skills" class="py-5" style="background-color:#121224; color:#ffffff;">
+    <div class="container">
+      <h3 class="mb-3">Skills</h3>
+      <div class="row g-3">
+        <div class="col-md-6">
+          <div class="card card-ghost p-3 reveal" style="background-color:#1f1f2e;">
+            <h6 class="text-white">Programming & Frameworks</h6>
+            <p class="mb-0 text-white">C#, JavaScript, Java · .NET Core · MVC architecture · OOP · Password Hashing</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card card-ghost p-3 reveal" style="background-color:#1f1f2e;">
+            <h6 class="text-white">Databases & Web</h6>
+            <p class="mb-0 text-white">Postgres SQL, Microsoft SQL · HTML5, CSS, Bootstrap · Git Version Control</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-5 bg-transparent">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h3>Projects</h3>
+        <small class="text-muted">Selected work — click for details</small>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <article class="card card-ghost p-3 proj" style="background-color:#1f1f2e; color:#ffffff;">
+            <h5>.NetCoreManagementApp <small class="text-muted">Jan 2025</small></h5>
+            <p class="small mb-1">A .NET Core web app built using MVC and Razor Pages providing full CRUD operations using an in-memory store. Focused on maintainable code and clean separation of concerns.</p>
+            <p class="mb-0 small"><strong>Tech:</strong> C#, .NET Core, Razor Pages, Bootstrap</p>
+          </article>
+        </div>
+
+        <div class="col">
+          <article class="card card-ghost p-3 proj" style="background-color:#1f1f2e; color:#ffffff;">
+            <h5>AnimateWithCSS <small class="text-muted">Sep 2024</small></h5>
+            <p class="small mb-1">Educational site built with a classmate to teach CSS animation concepts. Uses HTML, Bootstrap and JavaScript to load examples from JSON and provide interactive demos.</p>
+            <p class="mb-0 small"><strong>Tech:</strong> HTML, CSS, Bootstrap, JavaScript</p>
+          </article>
+        </div>
+
+        <div class="col">
+          <article class="card card-ghost p-3 proj" style="background-color:#1f1f2e; color:#ffffff;">
+            <h5>InventoryTracker (Pretend) <small class="text-muted">Apr 2024</small></h5>
+            <p class="small mb-1">A lightweight inventory management SPA prototype with search, filters, and a REST-ish backend simulation for demoing CRUD workflows.</p>
+            <p class="mb-0 small"><strong>Tech:</strong> JavaScript, Bootstrap, Node-style API (mock)</p>
+          </article>
+        </div>
+
+        <div class="col">
+          <article class="card card-ghost p-3 proj" style="background-color:#1f1f2e; color:#ffffff;">
+            <h5>Portfolio Website — This site <small class="text-muted">Dec 2025</small></h5>
+            <p class="small mb-1">A single-file Bootstrap portfolio built for a class assignment. Includes polished styling, subtle animations and an accessible layout designed to leave a professional impression.</p>
+            <p class="mb-0 small"><strong>Tech:</strong> Bootstrap, CSS animations, vanilla JS</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume" class="py-5" style="background-color:#121224; color:#ffffff;">
+    <div class="container">
+      <h3>Resume</h3>
+      <p class="text-white small">Download a PDF version of my resume (replace the placeholder link with your actual PDF in the repository).</p>
+      <div class="d-flex gap-2">
+        <a class="btn btn-outline-light" href="./SafaliBCSenchuri-Resume.pdf">Download Resume (PDF)</a>
+        <a class="btn btn-primary" href="#contact">Contact to request</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-5 bg-transparent">
+    <div class="container">
+      <h3>Contact</h3>
+      <p class="text-white small">I welcome opportunities for junior developer roles, co-op positions and freelance projects. Please reach out — I typically reply within a few business days.</p>
+      <div class="card card-ghost p-3" style="background-color:#1f1f2e; color:#ffffff;">
+        <h6>Quick Links</h6>
+        <ul class="list-unstyled small mb-0">
+          <li>GitHub: <a href="https://github.com/safali56">github.com/safali56</a></li>
+          <li>LinkedIn: <a href="www.linkedin.com/in/safali-bc-senchuri-4172172aa">www.linkedin.com/in/safali-bc-senchuri-4172172aa</a></li>
+          <li>Resume: <a href="./SafaliBCSenchuri-Resume.pdf">Download PDF</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer style="background-color:#121224; color:#888;">
+    <div class="container text-center py-3">
+      <small> • © Safali</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
